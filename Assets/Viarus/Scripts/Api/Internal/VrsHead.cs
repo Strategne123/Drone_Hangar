@@ -120,11 +120,11 @@ namespace Vrs.Internal
         
         private void UpdateHead()
         {
-            if (VrsGlobal.hasInfinityARSDK)
+            /*if (VrsGlobal.hasInfinityARSDK)
             {
                 trackRotation = false;
                 trackPosition = false;
-            }
+            }*/
 
             if (VrsViewer.Instance.GetViarusService() != null && VrsViewer.Instance.GetViarusService().IsMarkerRecognizeRunning)
             {
